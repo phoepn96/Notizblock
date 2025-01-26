@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="de">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Notes</title>
+		<link rel="stylesheet" href="styles/basic.css" />
+		<link rel="stylesheet" href="styles/container.css" />
+		<link rel="stylesheet" href="styles/show-hide.css" />
+		<link rel="stylesheet" href="styles/taskDivStyle.css" />
+	</head>
+	<body>
+		<header><h2>Notes</h2></header>
+		<main>
+			<section id="content">
+				<section class="show" id="tasks"></section>
+				<section class="hide" id="done"></section>
+				<section class="hide" id="garbage"></section>
+			</section>
+		</main>
+		<footer id="footer">
+			<div id="addTaskDiv">
+				<button id="addTask" onclick="openNewTaskInput()">New Task</button>
+			</div>
+			<div id="confirmationDiv">
+				<p id="confirmText"></p>
+			</div>
+		</footer>
+		<dialog id="addDialog"></dialog>
+		<script src="scripts/script.js"></script>
+		<script src="scripts/templates.js"></script>
+	</body>
+</html>

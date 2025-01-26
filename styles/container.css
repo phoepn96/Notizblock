@@ -1,0 +1,39 @@
+header {
+	height: 98px;
+	border-bottom: 1px solid black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+main {
+	height: calc(100vh - 222px);
+	background-color: aliceblue;
+}
+
+footer {
+	height: 98px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-top: 1px solid black;
+}
+
+#addTaskDiv {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#confirmationDiv {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	overflow: hidden;
+	height: 98px;
+}
+
+#confirmationDiv > p {
+	margin: 0;
+}
